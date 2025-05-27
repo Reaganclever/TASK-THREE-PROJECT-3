@@ -20,13 +20,13 @@ int main()
 
     double commissionRate;
 
-    printf("ENTER THE SALES VOLUME: \n" , sales_volume); scanf("%f" , &sales_volume);
+    printf("ENTER THE NEW SALES VOLUME: \n" , sales_volume); scanf("%f" , &sales_volume);
 
-    printf("ENTER THE COMMISSION RATE: \n" , commissionRate); scanf("%lf" , &commissionRate);
+    printf("ENTER THE NEW COMMISSION RATE: \n" , commissionRate); scanf("%lf" , &commissionRate);
 
 
     double formularCommission = (double)sales_volume * commissionRate;
-    printf("THE COMMISSION OF THE SALES PERSON IS %.0lf\n" , formularCommission);
+    printf("THE NEW COMMISSION OF THE SALES PERSON IS %.0lf\n" , formularCommission);
 
     float useful_life;
 
