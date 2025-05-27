@@ -11,12 +11,12 @@ int main()
 
     const float days;
 
-    printf("ENTER THE NEW TOTAL_SALES: \n" , total_sales); scanf("%lf" , &total_sales);
+    printf("ENTER THE NEWEST TOTAL_SALES: \n" , total_sales); scanf("%lf" , &total_sales);
 
-    printf("ENTER THE NEW NUMBER OF DAYS: \n" , days); scanf("%f" , &days);
+    printf("ENTER THE NEWEST NUMBER OF DAYS: \n" , days); scanf("%f" , &days);
 
     double formularAverage = total_sales/(double)days;
-    printf("THE NEW AVERAGE SALES PER DAY IN A MONTH IS %.0lf\n" , formularAverage);
+    printf("THE NEWEST AVERAGE SALES PER DAY IN A MONTH IS %.0lf\n" , formularAverage);
 
     double commissionRate;
 
