@@ -44,17 +44,17 @@ int main()
     float hours_per_week;
     double weeks_per_year;
 
-    printf("ENTER HOURLY WAGE: \n" , hourly_wage); scanf("%lf" , &hourly_wage);
+    printf("ENTER  USUAL HOURLY WAGE: \n" , hourly_wage); scanf("%lf" , &hourly_wage);
 
 
-    printf("ENTER HOURS PER WEEK: \n" , hours_per_week); scanf("%f" , &hours_per_week);
+    printf("ENTER  UPDATED HOURS PER WEEK: \n" , hours_per_week); scanf("%f" , &hours_per_week);
 
 
-    printf("ENTER WEEKS PER YEAR: \n" , weeks_per_year); scanf("%lf" , &weeks_per_year);
+    printf("ENTER  NEW WEEKS PER YEAR: \n" , weeks_per_year); scanf("%lf" , &weeks_per_year);
 
 
     double formularAnnualSalary = hourly_wage * (double)hours_per_week * weeks_per_year;
-    printf("CONVERSION OF AN HOURLY WAGE TO ANNUAL IS %.0lf\n" , formularAnnualSalary);
+    printf("THIS IS THE NEW CONVERSION OF AN HOURLY WAGE TO ANNUAL IS %.0lf\n" , formularAnnualSalary);
 
     double customer1;
     double customer2;
