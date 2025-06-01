@@ -56,16 +56,16 @@ int main()
     double formularAnnualSalary = hourly_wage * (double)hours_per_week * weeks_per_year;
     printf("THIS IS THE NEWEST CONVERSION OF AN HOURLY WAGE TO ANNUAL IS %.0lf\n" , formularAnnualSalary);
 
-    double customer1;
-    double customer2;
-    float customer3;
+    double customer6;
+    double customer7;
+    float customer8;
 
-    printf("ENTER CUSTOMER1 REVENUE: \n"); scanf("%lf" , &customer1);
-    printf("ENTER CUSTOMER2 REVENUE: \n"); scanf("%lf" , &customer2);
-    printf("ENTER CUSTOMER3 REVENUE: \n"); scanf("%f" , &customer3);
+    printf("ENTER CUSTOMER6 REVENUE: \n"); scanf("%lf" , &customer1);
+    printf("ENTER CUSTOMER7 REVENUE: \n"); scanf("%lf" , &customer2);
+    printf("ENTER CUSTOMER8 REVENUE: \n"); scanf("%f" , &customer3);
 
     double formularTotalRevenue = customer1 + (double)customer2 + customer3;
-    printf("THE CUMMULATIVE TOTAL REVENUE IS %.0lf\n" , formularTotalRevenue);
+    printf("THE  NEW CUMMULATIVE TOTAL REVENUE IS %.0lf\n" , formularTotalRevenue);
 
 
 
