@@ -60,12 +60,12 @@ int main()
     double customer7;
     float customer8;
 
-    printf("ENTER CUSTOMER6 REVENUE: \n"); scanf("%lf" , &customer1);
-    printf("ENTER CUSTOMER7 REVENUE: \n"); scanf("%lf" , &customer2);
-    printf("ENTER CUSTOMER8 REVENUE: \n"); scanf("%f" , &customer3);
+    printf("ENTER NEW CUSTOMER6 REVENUE: \n"); scanf("%lf" , &customer1);
+    printf("ENTER NEW CUSTOMER7 REVENUE: \n"); scanf("%lf" , &customer2);
+    printf("ENTER NEW CUSTOMER8 REVENUE: \n"); scanf("%f" , &customer3);
 
     double formularTotalRevenue = customer1 + (double)customer2 + customer3;
-    printf("THE  NEW CUMMULATIVE TOTAL REVENUE IS %.0lf\n" , formularTotalRevenue);
+    printf("THE  NEWEST CUMMULATIVE TOTAL REVENUE IS %.0lf\n" , formularTotalRevenue);
 
 
 
