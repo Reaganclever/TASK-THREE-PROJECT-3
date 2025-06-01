@@ -30,15 +30,15 @@ int main()
 
     float useful_life;
 
-    printf("ENTER THE ASSET COST: \n" , asset_cost); scanf("%lf" , &asset_cost);
+    printf("ENTER THE NEW ASSET COST: \n" , asset_cost); scanf("%lf" , &asset_cost);
 
-    printf("ENTER THE RESIDUAL VALUE: \n"); scanf("%lf" , &residual_value);
+    printf("ENTER THE NEW RESIDUAL VALUE: \n"); scanf("%lf" , &residual_value);
 
-    printf("ENTER THE USEFUL LIFE: \n" , useful_life); scanf("%f" , &useful_life);
+    printf("ENTER THE  NEW USEFUL LIFE: \n" , useful_life); scanf("%f" , &useful_life);
 
 
     const double formularDepreciation = (asset_cost - residual_value)/(double)useful_life;
-    printf("THE ANNUAL DEPRECIATION OF AN ASSET IS %.0lf\n" , formularDepreciation);
+    printf("THE NEW ANNUAL DEPRECIATION OF THE ASSET IS %.0lf\n" , formularDepreciation);
 
     double hourly_wage;
     float hours_per_week;
